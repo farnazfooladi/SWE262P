@@ -66,12 +66,9 @@ public class Nine {
           System.out.println(e);
       }
 
-      for(int i = 0; i < fw.size(); i++){
-        if(!(stop_list.contains(fw.get(i)))){
-            removed_stop_list.add(fw.get(i));
-        }
-      }
-      func.call(removed_stop_list, new SortedResult());
+      fw.removeAll(stop_list);
+
+      func.call(fw, new SortedResult());
     }
   }
 
@@ -117,19 +114,9 @@ public class Nine {
   }
 
   public static void main(String[] args) throws Exception {
+    final long startTime = System.nanoTime();
     new GettingArgs().call(args[0], new ReadFreq());
+    final long duration = System.nanoTime() - startTime;
+    System.out.println(duration);
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

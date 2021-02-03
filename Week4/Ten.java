@@ -98,12 +98,9 @@ public class Ten {
         System.out.println(e);
     }
 
-    for(int i = 0; i < fw.size(); i++){
-      if(!(stop_list.contains(fw.get(i)))){
-          removed_stop_list.add(fw.get(i));
-      }
-    }
-    return removed_stop_list;
+    fw.removeAll(stop_list);
+
+    return fw;
   }
 
   private static final Function<Object, Object> sortWordFreq = (object) -> sortedResult(object);
