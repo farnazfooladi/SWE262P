@@ -25,6 +25,6 @@ To run this program for App1:
 #### Now for running App2:
   Inside folder Twenty/deploy/config.properties change App1 to App2  
 - cd  ../../../
-- redo step 2 through 11 and obly change all App1 to App2
+- redo step 2 through 11 and only change all App1 to App2
 
 
