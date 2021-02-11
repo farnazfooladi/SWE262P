@@ -28,5 +28,3 @@ To run this program for App1:
 - redo step 2 through 11 and obly change all App1 to App2
 
 
-The top 25 most frequency words from text file will be save in .txt files.
-
