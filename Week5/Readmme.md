@@ -22,7 +22,8 @@ To run this program for App1:
 10) cp ../app/App1.jar .
 11) java -jar framework.jar ../../../pride-and-prejudice.txt
 
-* Now for running App2:
+#### Now for running App2:
+  Inside folder Twenty/deploy/config.properties change App1 to App2  
 - cd  ../../../
 - redo step 2 through 11 and obly change all App1 to App2
 
