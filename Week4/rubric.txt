@@ -1,0 +1,75 @@
+-------------------------
+Correctness
+-------------------------
+---------
+Nine
+---------
+Program output differed from expected.
+--------                            -------
+EXPECTED                            ACTUAL
+--------                            -------
+mr  -  786						      |	mr -> 786
+elizabeth  -  635					      |	elizabeth -> 635
+very  -  488						      |	very -> 488
+darcy  -  418						      |	darcy -> 418
+such  -  395						      |	such -> 395
+mrs  -  343						      |	mrs -> 343
+much  -  329						      |	much -> 329
+more  -  327						      |	more -> 327
+bennet  -  323						      |	bennet -> 323
+bingley  -  306						      |	bingley -> 306
+jane  -  295						      |	jane -> 295
+miss  -  283						      |	miss -> 283
+one  -  275						      |	one -> 275
+know  -  239						      |	know -> 239
+before  -  229						      |	before -> 229
+herself  -  227						      |	herself -> 227
+though  -  226						      |	though -> 226
+well  -  224						      |	well -> 224
+never  -  220						      |	never -> 220
+sister  -  218						      |	sister -> 218
+soon  -  216						      |	soon -> 216
+think  -  211						      |	think -> 211
+now  -  209						      |	now -> 209
+time  -  203						      |	time -> 203
+good  -  201						      |	good -> 201
+							      >
+							      >	74477507572
+---------
+Ten
+---------
+Program output differed from expected.
+--------                            -------
+EXPECTED                            ACTUAL
+--------                            -------
+mr  -  786						      |	mr -> 786
+elizabeth  -  635					      |	elizabeth -> 635
+very  -  488						      |	very -> 488
+darcy  -  418						      |	darcy -> 418
+such  -  395						      |	such -> 395
+mrs  -  343						      |	mrs -> 343
+much  -  329						      |	much -> 329
+more  -  327						      |	more -> 327
+bennet  -  323						      |	bennet -> 323
+bingley  -  306						      |	bingley -> 306
+jane  -  295						      |	jane -> 295
+miss  -  283						      |	miss -> 283
+one  -  275						      |	one -> 275
+know  -  239						      |	know -> 239
+before  -  229						      |	before -> 229
+herself  -  227						      |	herself -> 227
+though  -  226						      |	though -> 226
+well  -  224						      |	well -> 224
+never  -  220						      |	never -> 220
+sister  -  218						      |	sister -> 218
+soon  -  216						      |	soon -> 216
+think  -  211						      |	think -> 211
+now  -  209						      |	now -> 209
+time  -  203						      |	time -> 203
+good  -  201						      |	good -> 201
+							      >
+-------------------------
+Timestamps
+-------------------------
+Nine.java     on time              Tue Feb 2 20:00:42 PST 2021
+Ten.java     on time              Tue Feb 2 19:59:59 PST 2021
