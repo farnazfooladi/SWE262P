@@ -3,7 +3,6 @@ Week6 Exercise
 This exercise will implement the term frequency for words in the text file "pride-and-prejudice.txt" in 2 different styles:
 
 Style 1: persistent-tables 
-To run this java file:
 1) cd Week6
 2) javac TwentySix.java
 3) java -cp .:sqlite-jdbc-3.32.3.2.jar TwentySix ../pride-and-prejudice.txt
