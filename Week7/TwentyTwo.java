@@ -111,7 +111,7 @@ public class TwentyTwo{
       assert args.length > 0 : "You idiot! I need an input file!";        
       List<Map.Entry<String, Integer>> word_freqs_result = sortedResult(increment_count(remove_stopWords(extract_words(gettingArgs(args)))));
 
-      assert (word_freqs_result instanceof Map) : "OMG! This is not a Map!";
+      assert (word_freqs_result instanceof List) : "OMG! This is not a List!";
       assert (word_freqs_result.size() >= 25) : "SRSLY? Less than 25 words!";
 
       for(int i = 0; i < 25; i++) {   

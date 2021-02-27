@@ -10,7 +10,7 @@ Style 1: constructivist
 Style 2: tantrum 
 1) cd Week7 
 2) javac TwentyTwo.java
-3) java TwentyTwo ../pride-and-prejudice.txt
+3) java -ea TwentyTwo ../pride-and-prejudice.txt
 
 Style 3: quarantine 
 1) cd Week7 
